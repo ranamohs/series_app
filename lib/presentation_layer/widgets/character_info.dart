@@ -16,13 +16,13 @@ class CharacterInfo extends StatelessWidget {
         text: TextSpan(
           children: [
             TextSpan(text: title,
-            style: TextStyle(
+            style: const TextStyle(
               color: AppColors.whiteColor,
               fontWeight: FontWeight.bold,
               fontSize: 24,
             ),),
             TextSpan(text: value,
-              style: TextStyle(
+              style: const TextStyle(
                 color: AppColors.whiteColor,
                 fontSize: 20,
               ),),
