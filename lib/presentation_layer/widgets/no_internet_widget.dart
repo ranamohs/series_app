@@ -9,7 +9,7 @@ class BuildNoInternetWidget extends StatelessWidget {
     return Center(
       child: Container(
         color: AppColors.primaryColor,
-        child: Column(
+        child: const Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             SizedBox(
